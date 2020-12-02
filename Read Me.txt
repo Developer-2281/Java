@@ -1,1 +1,0 @@
-No idea how to implement Spring Directories, will update when I understand how
