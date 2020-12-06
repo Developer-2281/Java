@@ -1,0 +1,26 @@
+@charset "ISO-8859-1";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+	display:flex;
+	justify-content: center;
+	margin-top: 65px;
+	width: 970px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 5px;
+    margin: 10px;
+}
+
+a {
+	color: blue;
+}
