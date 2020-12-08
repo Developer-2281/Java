@@ -1,0 +1,66 @@
+@charset "ISO-8859-1";
+/* *{
+	outline: 1px dotted pink;
+} */
+
+#container {
+	width: 970px;
+	display: flex;
+	justify-content: center;
+}
+
+#formBox {
+	width: 375px;
+	margin-top: 50px;
+	outline: 2.5px solid black;
+    display: inline-block;
+}
+
+#formBox2 {
+	width: 375px;
+	height: 267px;
+	margin-top: 50px;
+	outline: 2.5px solid black;
+    display: inline-block;
+}
+
+label {
+	text-align: left;
+}
+
+
+input[type="submit" i] {
+	float: right;
+    margin-right: 25px;
+    margin-bottom: 10px;
+	background-color: #76A5AF;
+    border-radius: 1px;
+    color: white;
+    height: 25px;
+    width: 87px;
+}
+
+p {
+	margin-left: 25px;
+}
+select {
+	float: right;
+    margin-right: 25px;
+    outline: 1px solid black;
+    width: 170px;
+}
+
+input[type="text" i] {
+	float: right;
+    margin-right: 25px;
+    outline: 1px solid black;
+    width: 162px;
+}
+
+textarea {
+	margin-top: 10px;
+}
+
+h2{
+	margin-left: 15px;
+}
