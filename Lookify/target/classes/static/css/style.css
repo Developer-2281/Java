@@ -1,0 +1,80 @@
+@charset "ISO-8859-1";
+
+
+#containerHome {
+	width: 970px;
+	text-align: center;
+}
+
+#containerDash {
+	width: 970px;
+}
+
+#containerNewSong {
+	width: 970px;
+}
+
+#containerTopTen {
+	width: 970px;
+}
+
+#containerSongInfo {
+	width: 970px;
+}
+
+#containerSearch{
+	width: 970px;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+.centerP {
+	margin-top: 200px;
+}
+
+.rightP {
+	text-align: right;
+	margin-top:10px;
+}
+
+#form {
+	width: 300px;
+	height: 300px;
+}
+
+#searchBar {
+	
+}
+
+#topTenBox {
+	width: 350px;
+	outline: 2px solid black;
+}
+
+/* Center placeholder text in Search Bar */
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
+
+/* Table Data Organization */
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 750px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+/* End Table Data Organization */
