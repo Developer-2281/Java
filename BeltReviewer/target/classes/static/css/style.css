@@ -1,0 +1,45 @@
+@charset "ISO-8859-1";
+* {
+    background-color: ghostwhite;
+}
+
+.alert1 {
+	color: red
+}
+
+#container {
+    width: 970px;
+    margin-left: 15px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 750px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#tableRowTop {
+    background-color: gray;
+}
+
+h3 a:-webkit-any-link {
+    color: red;
+}
+
+.alignRight {
+	text-align: right;
+}
+
+#showEventContainer {
+	display: flex;
+}
